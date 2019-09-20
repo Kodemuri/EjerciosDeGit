@@ -1,5 +1,5 @@
 body {
-    color: black;
+    color: violet;
     text-align: center;
     font-family: "Arial";
     margin: 0;
@@ -12,6 +12,13 @@ body {
     color: white;
     margin: 0;
     padding: 0.5em;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.titulo span {
+    font-weight: normal;
+    font-size: 16px;
 }
 
 #container, .container {
@@ -23,5 +30,5 @@ body {
 }
 
 #container h1, .container h1 {
-    font-family: 20px;
+    font-size: 22px;
 }
